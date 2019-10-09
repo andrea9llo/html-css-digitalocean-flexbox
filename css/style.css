@@ -1,0 +1,423 @@
+/* navbar sup */
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+.nav-margin{
+  padding: 10px 0 0 0;
+}
+.nav-margin2{
+  background-color: #0069ff;
+  padding: 30px 0 ;
+}
+#button-nav{
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 4px;
+  background: #00d7d2;
+}
+.a-nav{
+  color: #5b6987;
+  font-size: 12px;
+  font-weight: 600;
+}
+a:hover{
+  text-decoration: none;
+  color: #0069ff;
+}
+li{
+  list-style-type: none;
+}
+#menu-nav-sup{
+  text-align: right;
+}
+.li-nav{
+  display: inline-block;
+  padding: 0 1%;
+}
+
+@media  screen and (max-width: 1048px) {
+  .nav-margin{
+    display: none;
+  }
+  header{
+    position: relative;
+    }
+  body>#welcom{
+    margin-top: 0;
+  }
+}
+@media  screen and (min-width: 1049px){
+  .nav-margin2{
+    display:none;
+  }
+
+}
+#margine-linea{
+  margin: 0;
+}
+/* nav inferiore */
+
+.logo{
+  width: 180px;
+}
+@media screen and (max-width: 250px) {
+  #logo{
+    width: 100px;
+    margin-top: 10px;
+  }
+
+}
+#centro{
+  padding-top: 10px;
+}
+.a-nav-inf{
+  color: #031b4e;
+}
+.menu-nav{
+  text-align: right;
+  padding-top: 3px;
+}
+.menu-nav2{
+  text-align: right;
+  padding-top: 10px;
+}
+#sign-up{
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  font-weight: 600;
+}
+#sign-up:hover{
+  background: #0069ff;
+  color: white;
+}
+.fa-bars{
+  font-size: 25px;
+  color: #1606ce;
+}
+
+/* blocco benvenuto */
+#welcom{
+  margin-top: 91px;
+  background-image: url("../img/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+/* colonna testo */
+
+h1{
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+#par-h1{
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* colonna form */
+.form{
+  background: white;
+  padding: 10px 4%;
+  border-radius: 4px;
+}
+.titolo-form{
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2{
+  font-weight: 600;
+}
+.bordo{
+  height: 45px;
+}
+.bordo:hover{
+ border: #0069ff;
+}
+#bottom-form{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  background: #0069ff;
+  color: white;
+}
+#bottom-form:hover{
+  background: #1606ce;
+}
+.linee{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+span{
+  text-align: center;
+  color: #5b6987;
+}
+.icone-line{
+  width: 100%;
+  max-width: 100px;
+  height: 1px;
+  border-radius: 1px;
+  background: black;
+  opacity: 0.3;
+}
+.marg-dx{
+  margin-right: 20px;
+}
+.marg-sx{
+  margin-left: 20px;
+}
+
+/* bottoni social form */
+.social-bottom{
+  width: 100%;
+  font-size: 16px;
+}
+.par-form{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 11px;
+}
+.underline{
+  text-decoration: underline;
+}
+
+/* blocco Customers */
+#customer, .sfondo-section{
+  background: #f3f5f9;
+}
+
+.text-cust{
+  text-align: center;
+  margin: 60px 0 10px 0;
+  color: rgba(0,0,0, 0.4);
+}
+
+
+#customer li{
+  display: inline-block;
+  width: calc((100% / 6) - 4px);
+  list-style-type: none;
+}
+
+#customer img {
+  max-width: 80%;
+}
+@media screen and (max-width: 767px) {
+  #customer li{
+    width: calc((100% / 2) - 4px);
+  }
+}
+.text-center-a{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+/* blocco Deploy and scale */
+
+.padding{
+  padding: 100px 0 50px;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  color: #031b4e;
+}
+.par-h2{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(3,27,78,.7);
+  margin-bottom: 60px;
+}
+.menu-deploy{
+  color: rgba(3,27,78,.5);
+  border-left: solid 2px rgba(3,27,78,.5);
+  padding: 6%;
+  font-size: 17px;
+}
+.menu-deploy:hover{
+  cursor: pointer;
+  color: #031b4e;
+  border-left: solid 2px #0069ff;
+}
+.fa-tint{
+  color: #0069ff;
+}
+.color-h{
+  color: #031b4e;
+  font-size: 20px;
+}
+.par-col{
+  color: rgba(3,27,78,.5);
+  font-size: 16px;
+}
+.margin-top-col{
+  margin-top: 20px;
+}
+
+/* blocco developers  */
+.screenshot{
+  height: auto;
+  text-align: center;
+}
+.screenshot img{
+  max-width: 60%;
+  height: auto;
+}
+.parag{
+  color: rgba(3,27,78,.7);
+  font-size: 17px;
+  margin-top: 20px;
+}
+.fa-circle{
+  font-size: 9px;
+  padding: 2px;
+  color: #0069ff;
+  cursor: pointer;
+}
+
+
+/* blocco business */
+
+.margin-colonne{
+  margin-top: 60px;
+}
+.icone-col{
+  font-size: 35px;
+  color: #0069ff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.business-a{
+  font-size: 17px;
+}
+
+/* blocco world */
+#mondo{
+  background-image: url("../img/data-center-map-20321538.svg");
+  background-color: #031b4e;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-h2{
+  color: white;
+  margin-bottom: 60px;
+}
+.nome-citta,.nome-citta1{
+  font-weight: 600;
+  color: white;
+}
+
+.table>tbody>tr>.nome-citta1,
+.table>tbody>tr>.city1,
+.table>tbody>tr>.test1{
+  border: none
+}
+
+.city,.city1 , td>a{
+  color:white;
+  opacity: 0.5;
+}
+.test,.test1{
+  text-align: right;
+}
+
+/* blocco development */
+.containerwhite{
+  width: 70%;
+  margin: auto;
+  background: white;
+  text-align: center;
+  padding: 25px 3% 50px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+.containerwhite>img{
+  max-width: 180px;
+  margin-bottom: 25px;
+}
+.containerwhite>p{
+  opacity: .5;
+}
+
+#par-rockerbox{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+/* blocco crea account */
+#ocean{
+  background-image: url("../img/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+#ocean>.container>.row{
+  text-align: center;
+}
+#ocean>.container>.row>.col-12-xs>h2{
+  color: white;
+}
+#bottom-ocean{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 50px;
+  background: white;
+  color: #0069ff;
+}
+
+/* footer */
+footer{
+  background: #010e28;
+}
+.color1{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.color2{
+  color:white;
+  opacity: 0.5;
+  font-size: 15px;
+}
+.color2:hover{
+  color: white;
+  opacity: 1.5;
+}
+/* footer inf */
+
+.fa-digital-ocean{
+  font-size: 50px;
+  color: #0069ff;
+  margin-right: 10px;
+}
+.copyright{
+  vertical-align: super;
+}
+.social{
+  text-align: right;
+  margin-top: 10px;
+}
+.menu-social{
+  display: inline-block;
+  padding: 1%;
+  font-size: 22px;
+}
+.menu-social>a{
+  color:white;
+  opacity: 0.5;
+}
+.menu-social>a:hover{
+  color: white;
+  opacity: 1.5;
+}
